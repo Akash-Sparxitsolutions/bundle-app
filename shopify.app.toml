@@ -2,18 +2,21 @@
 
 name = "customized-bundle-app"
 client_id = "e2f0ab17f48371397964d6a6220a4c62"
-application_url = "https://infant-generated-permanent-aluminum.trycloudflare.com"
+application_url = "https://attractions-ethics-arise-ranger.trycloudflare.com"
 embedded = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+# This file stores configurations for your Shopify app.
+
+scopes = "write_cart_transforms"
+
 
 [auth]
 redirect_urls = [
-  "https://infant-generated-permanent-aluminum.trycloudflare.com/auth/callback",
-  "https://infant-generated-permanent-aluminum.trycloudflare.com/auth/shopify/callback",
-  "https://infant-generated-permanent-aluminum.trycloudflare.com/api/auth/callback"
+  "https://attractions-ethics-arise-ranger.trycloudflare.com/auth/callback",
+  "https://attractions-ethics-arise-ranger.trycloudflare.com/auth/shopify/callback",
+  "https://attractions-ethics-arise-ranger.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
